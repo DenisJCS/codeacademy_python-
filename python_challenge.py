@@ -48,6 +48,23 @@ print(result)
 def twice_as_large(num1, num2):
   if num1 > num2*2:
     return True
+
+
+  # Write your divisible_by_ten() function here:
+def divisible_by_ten(num):
+  if (num % 10 == 0):
+    return True
+  else:
+    return False
+result = divisible_by_ten(10)
+print(result)
+
+# Uncomment these print() function calls to test your divisible_by_ten() function:
+
+#print(divisible_by_ten(20))
+# should print True
+#print(divisible_by_ten(25))
+# should print False
   else:
     return False
 result = twice_as_large (100,25)
