@@ -31,3 +31,15 @@ else:
 # Uncomment the below lines to see the results
 print(over_budget)
 print("\nTotal : " + str(total))
+
+
+# Write your large_power function here:
+def large_power (base , exponent):
+  """Check weather if it over 5000"""
+  if base ** exponent > 5000:
+    return True
+  else:
+    return False
+
+result = large_power(5000, 1)
+print(result)
