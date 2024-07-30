@@ -13,3 +13,13 @@ def print_butterfly(n):
         )
     #Call the function to print the butterfly
 print_butterfly(5)
+
+*        *
+**      **
+***    ***
+****  ****
+**********
+****  ****
+***    ***
+**      **
+*        *
