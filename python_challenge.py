@@ -155,6 +155,19 @@ def append_sum(my_list):
   my_list.append(my_list[-1] + my_list[-2])
   return my_list
 
+#Write your function here
+def larger_list(my_list, my_list2):
+  if len(my_list) >= len(my_list2):
+    return my_list[-1]
+  else:
+    return my_list2[-1]
+
+
+
+#Uncomment the line below when your function is done
+#print(larger_list([4, 10, 2, 5], [-10, 2, 5, 10]))
+print(larger_list([4, 10, 2, 5], [-10, 2, 5, 10]))
+
 
 #Uncomment the line below when your function is done
 #print(append_sum([1, 1, 2]))
