@@ -134,3 +134,5 @@ print(movie_review(4))
 #print(movie_review(6))
 print(movie_review(6))
 # should print "This one was fun."
+
+"Challenges are done"
