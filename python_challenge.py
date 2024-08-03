@@ -211,3 +211,19 @@ def more_frequent_item(my_list, item1, item2):
 #print(more_frequent_item([2, 3, 3, 2, 3, 2, 3, 2, 3], 2, 3))
 print(more_frequent_item([2, 3, 3, 2, 3, 2, 3, 2, 3], 2, 3))
 output : 3
+
+#Write your function here
+def double_index(my_list, index):
+  if index >= len(my_list):
+    return my_list
+  else:
+    #Get the original list up to index
+    my_new_list = my_list[0:index]
+    #Adds double
+  my_new_list.append(my_list[index]*2)
+  my_new_list = my_new_list + my_list[index+1:]
+  return my_new_list
+
+#Uncomment the line below when your function is done
+#print(double_index([3, 8, -10, 12], 2))
+print(double_index([3, 8, -10, 12], 2))
