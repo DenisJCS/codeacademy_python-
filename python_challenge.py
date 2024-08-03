@@ -201,3 +201,13 @@ print(remove_middle([4,8,15,16,23,42],1, 3))
 #print(append_sum([1, 1, 2]))
 print(append_sum([1,1,2]))
 
+#Write your function here
+def more_frequent_item(my_list, item1, item2):
+  if my_list.count(item1) >= my_list.count(item2):
+    return item1
+  else:
+    return item2
+#Uncomment the line below when your function is done
+#print(more_frequent_item([2, 3, 3, 2, 3, 2, 3, 2, 3], 2, 3))
+print(more_frequent_item([2, 3, 3, 2, 3, 2, 3, 2, 3], 2, 3))
+output : 3
