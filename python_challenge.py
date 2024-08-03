@@ -180,6 +180,16 @@ def more_than_n(my_list, item, n):
 print(more_than_n([2, 4, 6, 2, 3, 2, 1, 2], 2, 3))
 
 
+#Write your function here
+def every_three_nums(start):
+  """Return every third number between start and 100 , above it empty list"""
+  return list(range(start,101,3))
+
+
+#Uncomment the line below when your function is done
+# print(every_three_nums(91))
+print(every_three_nums(91)
+
 #Uncomment the line below when your function is done
 #print(append_sum([1, 1, 2]))
 print(append_sum([1,1,2]))
