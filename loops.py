@@ -10,3 +10,14 @@ def divisible_by_ten(nums):
 #Uncomment the line below when your function is done
 #print(divisible_by_ten([20, 25, 30, 35, 40]))
 print(divisible_by_ten([20, 25, 30, 35, 40]))
+
+#Write your function here
+def add_greetings(names):
+  new_list = []
+  for name in names:
+    new_list.append("Hello, " + name)
+  return new_list
+
+#Uncomment the line below when your function is done
+#print(add_greetings(["Owen", "Max", "Sophie"]))
+print(add_greetings(["Owen", "Max", "Sophie"]))
