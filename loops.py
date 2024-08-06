@@ -46,3 +46,18 @@ def odd_indices(my_list):
 #Uncomment the line below when your function is done
 #print(odd_indices([4, 3, 7, 10, 11, -2]))
 print(odd_indices([4, 3, 7, 10, 11, -2]))
+
+
+
+
+#Write your function here
+def exponents(bases, powers):
+  new_list = []
+  for base in bases:
+    for power in powers:
+      new_list.append(base ** power)
+  return new_list
+
+#Uncomment the line below when your function is done
+#print(exponents([2, 3, 4], [1, 2, 3]))
+print(exponents([2, 3, 4], [1, 2, 3]))
