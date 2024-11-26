@@ -28,3 +28,9 @@ god_wills_it_line_one = "The very earth will disown you"
 disown_placement = god_wills_it_line_one.find("disown")
 print(disown_placement)
 
+def poem_title_card(title, poet):
+    poem_desc = f'The poem "{title}" is written by {poet}.'
+    return poem_desc
+
+print(poem_title_card("I Hear America Singing", "Walt Whitman"))
+
