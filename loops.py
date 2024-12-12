@@ -61,3 +61,18 @@ def exponents(bases, powers):
 #Uncomment the line below when your function is done
 #print(exponents([2, 3, 4], [1, 2, 3]))
 print(exponents([2, 3, 4], [1, 2, 3]))
+
+
+
+
+#Find fibanaci 
+def fibanaci(x):
+    if x==0:
+        return 0
+    elif x==1:
+        return 1
+    else:
+        return fibanaci(x-2)+fibanaci(x-1)
+for i in range(1,11):
+    print(fibanaci(i))
+
